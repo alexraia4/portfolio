@@ -1,0 +1,21 @@
+.Header {
+
+      height: 10vh;
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.Header_title {
+      font-size: 3em;
+}
+
+.Header_links {
+      display: flex;
+}
+
+.Header_link{
+      font-size: 1.5em;
+      margin-right: 40%;
+}
