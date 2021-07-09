@@ -1,6 +1,9 @@
 .Header {
 
       height: 10vh;
+      width: 100vw;
+
+      margin-top: 5vh;
 
       display: flex;
       justify-content: space-around;
@@ -9,6 +12,8 @@
 
 .Header_title {
       font-size: 3em;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
 }
 
 .Header_links {
@@ -18,4 +23,7 @@
 .Header_link{
       font-size: 1.5em;
       margin-right: 40%;
+
+      text-decoration: none;
+      color: rgb(255, 255, 255);
 }

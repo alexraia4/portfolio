@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import './css/reset.css';
+
 import {BrowserRouter, HashRouter} from 'react-router-dom';
 const Router = process.env.NODE_ENV === 'development' ? HashRouter : BrowserRouter;
-import './css/reset.css';
+
 
 
 

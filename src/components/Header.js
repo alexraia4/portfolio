@@ -1,13 +1,14 @@
-import '../css/Header.css';
+import { Link } from 'react-router-dom'
+import '../css/Header.css'
 
 function Header() {
       return (
             <header className="Header">
-                  <h1 className="Header_title">Alexander Raia</h1>
+                  <Link to="/" className="Header_title"><h1>Alexander Raia</h1></Link>
                   <nav className="Header_links">
-                        <p className="Header_link">About</p>
-                        <p className="Header_link">Projects</p>
-                        <p className="Header_link">Contact</p>
+                        <Link to="/about" className="Header_link"><p>About</p></Link>
+                        <Link to="/projects" className="Header_link"><p>Projects</p></Link>
+                        <Link to="/contact" className="Header_link"><p>Contact</p></Link>
                   </nav>
             </header>
       );
