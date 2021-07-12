@@ -7,9 +7,8 @@ import {BrowserRouter, HashRouter} from 'react-router-dom';
 const Router = process.env.NODE_ENV === 'development' ? HashRouter : BrowserRouter;
 
 
-
-
 ReactDOM.render(
+      
       <React.StrictMode>
             <Router>
                   <App />
