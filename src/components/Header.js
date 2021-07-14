@@ -4,6 +4,7 @@ import '../css/Header.css'
 function Header() {
       return (
             <header className="Header">
+                  <img src="../images/me.png" alt="me"/>
                   <Link to="/" className="Header_title"><h1>Alexander Raia</h1></Link>
                   <nav className="Header_links">
                         <Link to="/about" className="Header_link"><p>About</p></Link>
