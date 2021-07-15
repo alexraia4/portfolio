@@ -9,11 +9,30 @@
       justify-content: space-around;
       align-items: center;
 }
+.Header_me {
+
+      width: 30%;
+
+      display: flex;
+      align-items: center;
+      margin-top: 3%;
+}
 
 .Header_pic {
-      height: 50px;
-      width: 50px;
-      background-image: url('../images/me.png');
+      width: 150px;
+      height: 190px;
+      
+      margin-right: 3%;
+
+      background-image: url('../images/me.jpg');
+      background-repeat: no-repeat;
+      background-size:cover;
+
+      border-radius: 100%;
+      border-color: rgb(255, 255, 255);
+      border-width: 5px;
+      border-style: solid;
+
 }
 
 .Header_title {
@@ -23,6 +42,7 @@
 }
 
 .Header_links {
+      width: 20%;
       display: flex;
 }
 

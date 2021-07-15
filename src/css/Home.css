@@ -2,7 +2,7 @@
 
       width: 60vw;
 
-      margin-bottom: 50vh;
+      margin-bottom: 40vh;
 
       display: flex;
       flex-direction: column;
@@ -12,4 +12,13 @@
       
       color: rgb(255, 255, 255);
       font-size: 1.7em;
+
+      text-align: center;
+}
+
+.Home_title {
+      
+      font-size: 2em;
+      text-decoration: underline;
+      margin-bottom: 2%;
 }
