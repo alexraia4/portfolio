@@ -3,15 +3,40 @@
       width: 60vw;
 
       margin-bottom: 40vh;
-
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
       
 
       
       color: rgb(255, 255, 255);
-      font-size: 1.7em;
+      
 
-      text-align: center;
+}
+
+.Projects_timeline {
+      width: 60vw;
+      height: 20vh;
+      display: flex;
+}
+
+.Projects_timeline_link {
+      width: 16vw;
+      height: 15vh;
+
+      margin-right: 2vw;
+
+      background-color: rgb(177, 65, 65);
+
+      border-radius: 10%;
+      border-color: rgb(255, 255, 255);
+      border-width: 5px;
+      border-style: solid;
+}
+
+.Projects_timeline_title {
+      font-size: 2em;
+      text-decoration: underline;
+}
+
+.Projects_timeline_context {
+      margin-top: 2vh;
+      font-size: 1.2em;
 }
