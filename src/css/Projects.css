@@ -23,7 +23,12 @@
 
       margin-right: 2vw;
 
-      background-color: rgb(177, 65, 65);
+      background-color: rgb(255, 255, 255);
+
+      background-image: url("../images/timeline_pic.png");
+      background-size:     cover;
+      background-repeat:   no-repeat;
+      background-position: center center;
 
       border-radius: 10%;
       border-color: rgb(255, 255, 255);
