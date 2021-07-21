@@ -1,7 +1,7 @@
 .Contact {
-      width: 60vw;
+      width: 30vw;
 
-      margin-bottom: 40vh;
+      margin-bottom: 35vh;
 
       display: flex;
       flex-direction: column;
@@ -12,5 +12,53 @@
       color: rgb(255, 255, 255);
       font-size: 1.7em;
 
-      text-align: center;
+      
+}
+
+.Contact_phone {
+      text-decoration: underline;
+}
+
+.Contact_number {
+      margin-bottom: 5vh;
+}
+
+.Contact_email {
+      text-decoration: underline;
+}
+
+.Contact_gmail {
+      margin-bottom: 5vh;
+}
+
+.Contact_links {
+      width: 20vw;
+      height: 10vh;
+}
+
+.Contact_linkedin_link {
+      width: 3vw;
+      height: 5vh;
+
+      margin-bottom: 5vh;
+
+
+      background-image: url("../images/linkedin_logo.png");
+      background-size:     cover;
+      background-repeat:   no-repeat;
+      background-position: center center;
+
+      border-radius: 10%;
+}
+
+.Contact_github_link {
+      width: 3vw;
+      height: 5vh;
+
+      background-image: url("../images/github_logo.png");
+      background-size:     cover;
+      background-repeat:   no-repeat;
+      background-position: center center;
+
+      border-radius: 10%;
 }
