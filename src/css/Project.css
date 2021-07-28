@@ -2,17 +2,17 @@
       width: 60vw;
       height: 20vh;
       display: flex;
+
+      margin-bottom: 7vh;
 }
 
 .Project_link {
-      width: 16vw;
+      width: 13%;
       height: 15vh;
 
       margin-right: 2vw;
 
       background-color: rgb(255, 255, 255);
-
-      background-image: url("../images/timeline_pic.png");
       background-size:     cover;
       background-repeat:   no-repeat;
       background-position: center center;
@@ -26,6 +26,10 @@
 .Project_title {
       font-size: 2em;
       text-decoration: underline;
+}
+
+.Project_content {
+      width: 88%;
 }
 
 .Project_context {

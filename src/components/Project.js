@@ -1,9 +1,12 @@
 import '../css/Project.css'
+import derp from '../images/timeline_pic.png'
 
 function Project(props) {
+
+
       return (
             <div className = "Project">
-                  <a href={`${props.link}`} className = "Project_link"/>
+                  <a href={`${props.link}`} className = "Project_link" style={{backgroundImage: `url(${props.picURL})`}}/>
                   <div className = "Project_content">
                         <p className = "Project_title">{props.title}</p>
                         <p className = "Project_context">{props.context}</p>
