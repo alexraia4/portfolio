@@ -1,9 +1,9 @@
 .Header {
 
       height: 10vh;
-      width: 100vw;
+      width: 90vw;
 
-      margin-top: 5vh;
+      margin-top: 7vh;
 
       display: flex;
       justify-content: space-around;
@@ -52,4 +52,22 @@
 
       text-decoration: none;
       color: rgb(255, 255, 255);
+}
+
+
+.Header_link:hover{
+      font-size: 2em;
+      animation-duration: 0.3s;
+      animation-name: textGrow;
+}
+
+    
+@keyframes textGrow {
+      from {
+            font-size: 1.5em;
+      }
+    
+      to {
+            font-size: 2em;
+      }
 }

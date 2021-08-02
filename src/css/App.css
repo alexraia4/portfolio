@@ -2,6 +2,10 @@
       min-height: 100vh;
       width: 100vw;
 
+/* I dont know what overflow does but it makes it work */
+      overflow: hidden;
+/*  */
+
       display: flex;
       flex-direction: column;
       justify-content: space-between;
