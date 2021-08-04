@@ -5,3 +5,20 @@
       color: rgb(255, 255, 255);
 
 }
+
+
+.Projects{
+      animation-duration: 2s;
+      animation-name: fadeIn;
+}
+
+    
+@keyframes fadeIn {
+      from {
+            opacity: 0;
+      }
+    
+      to {
+            opacity: 1;
+      }
+}
