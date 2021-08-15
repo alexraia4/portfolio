@@ -27,7 +27,7 @@ function Header() {
                         <p>Contact</p>
                   </nav>
 
-                  <img src={hamburger} onClick={changeView}/>
+                  <img src={hamburger} onClick={changeView} alt = "hamburger icon"/>
 
                   {checkView()}
 
