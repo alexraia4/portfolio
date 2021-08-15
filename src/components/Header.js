@@ -1,24 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import hamburger from '../images/hamburger.png'
 import '../css/Header.css'
 
 function Header() {
       const [mobileMenuView, setmMV] = useState(false);
 
+      useEffect(() => {
+            if (mobileMenuView === false) {
+                  document.getElementsByClassName("Header_nav")[0].style.display = "none"
+                  document.getElementsByClassName("Header_hamburger")[0].style.left = "70%"
+                  
+            }
+            else {
+                  document.getElementsByClassName("Header_nav")[0].style.display = ""
+                  document.getElementsByClassName("Header_hamburger")[0].style.left = "10%"
+            }
+      });
+
       const changeView = () => {
             setmMV(!mobileMenuView)
       }
 
-      const checkView = () => {
-            if (mobileMenuView === false) {
-                  console.log("derp")
-            }
-      }
+      
+            
 
 
       return (
             <header className="Header">
                   
+
+                  <img className="Header_hamburger" src={hamburger} onClick={changeView} alt = "hamburger icon"/>
+
                   <nav className = "Header_nav">
                         <p>Home</p>
                         <p>About</p>
@@ -27,9 +39,8 @@ function Header() {
                         <p>Contact</p>
                   </nav>
 
-                  <img src={hamburger} onClick={changeView} alt = "hamburger icon"/>
+                  
 
-                  {checkView()}
 
             </header>
       );
